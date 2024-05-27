@@ -10,6 +10,6 @@ Postaw projekt na frameworku Symfony 6.4, który będzie spełniać następując
 	a. Tworzenie zamówienia podając listę identyfikatorów produktów wraz z kupowanymi ilościami. Udane stworzenie zamówienia powinno zwrócić kod http 200 oraz format JSON zamówienia spójny z punktem 4b.
 	b. Zwracanie najważniejszych informacji (nie wszystkie) o zamówieniu w formacie JSON po podaniu identyfikatora zamówienia na wejściu.
 5. Skonfiguruj Symfony tak, aby w każdym response aplikacji zwracany był header "x-task: 1".
-6.* W celu kalkulacji cen i podatków zamówienia stwórz serwis i klasy potrzebne jako collector pattern. 
+6. *W celu kalkulacji cen i podatków zamówienia stwórz serwis i klasy potrzebne jako collector pattern. 
 	a. Załóż że każdy z produktów ma na stałe 23% vat, przelicz zamówienie tak aby posiadało sumę przedmiotów, sumę vat, sumę łączoną. 
 	b. Oblicz sumę przedmiotów i sumę vat używając powyższego serwisu jak i powiązanych (z kolekcji, np. jeden oblicza sumę ceny zwykłej, drugi vat, trzeci łączoną, etc) i skonfiguruj je używając Symfony.
