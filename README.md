@@ -13,3 +13,6 @@ Postaw projekt na frameworku Symfony 6.4, który będzie spełniać następując
 6. *W celu kalkulacji cen i podatków zamówienia stwórz serwis i klasy potrzebne jako collector pattern. 
 	a. Załóż że każdy z produktów ma na stałe 23% vat, przelicz zamówienie tak aby posiadało sumę przedmiotów, sumę vat, sumę łączoną. 
 	b. Oblicz sumę przedmiotów i sumę vat używając powyższego serwisu jak i powiązanych (z kolekcji, np. jeden oblicza sumę ceny zwykłej, drugi vat, trzeci łączoną, etc) i skonfiguruj je używając Symfony.
+
+Dokumentacja rozwiązania:
+https://documenter.getpostman.com/view/14431758/2sA3QsAsQD
